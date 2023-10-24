@@ -27,7 +27,7 @@ export default function Home() {
             >
               By <span className={textStyle.changeText}>Ean Yang</span>{" "}
               <Image
-                src="/avatar.jpg"
+                src="/knowledge/avatar.jpg"
                 alt="Vercel Logo"
                 width={30}
                 height={30}
@@ -126,7 +126,7 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-            href="https://eanyang7.com/knowledge/Probability-Statistics-Notes"
+            href="/knowledge/Probability-Statistics-Notes"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
