@@ -126,7 +126,7 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-            href="/knowledge/Probability-Statistics-Notes"
+            href="https://eanyang7.github.io/Probability-Statistics-Notes/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
