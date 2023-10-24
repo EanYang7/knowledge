@@ -1,0 +1,18 @@
+/* Text.module.css */
+.changeText {
+    font-size: 24px;
+    background: linear-gradient(to right, rgb(81, 255, 0), rgb(255, 0, 0)); /* 定义渐变背景 */
+    -webkit-background-clip: text; /* 将背景裁剪到文本 */
+    -webkit-text-fill-color: transparent; /* 使文本颜色透明，以显示渐变背景 */
+}
+
+
+.logo {
+    /* 其他样式... */
+    transition: transform 0.3s ease; /* 添加一个transform属性的过渡动画 */
+  }
+  
+.logo:hover {
+    transform: rotate(360deg); /* 在悬停时旋转图像 */
+  }
+  
