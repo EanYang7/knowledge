@@ -5,7 +5,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/Probability-Statistics-Notes",
+        source: "/knowledge/Probability-Statistics-Notes",
         destination: `https://eanyang7.github.io/Probability-Statistics-Notes/`,
       },
     ];
