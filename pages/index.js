@@ -27,7 +27,7 @@ export default function Home() {
             >
               By <span className={textStyle.changeText}>Ean Yang</span>{" "}
               <Image
-                src="/knowledge/avatar.jpg"
+                src="/learn/avatar.jpg"
                 alt="Vercel Logo"
                 width={30}
                 height={30}
@@ -135,6 +135,17 @@ export default function Home() {
               概率论与数理统计 <span>-&gt;</span>
             </h2>
             <p>深入研究探讨概率统计的世界</p>
+          </a>
+          <a
+            href="https://eanyang7.github.io/pytorch-deep-learning/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              掌握 Pytorch <span>-&gt;</span>
+            </h2>
+            <p>从小白到大师</p>
           </a>
         </div>
       </main>
